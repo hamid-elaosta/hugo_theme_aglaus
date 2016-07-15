@@ -33,7 +33,14 @@
 
     <div class="container">
       <header class="site">
-        <div class="title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
+        <div class="title">
+          <a href="{{ $.Site.BaseURL }}">
+            <div class="hexagon">
+              <div class="hexTop"></div>
+              <div class="hexBottom"></div>
+          </div>
+        </a>
+        </div>
       </header>
     </div>
 
